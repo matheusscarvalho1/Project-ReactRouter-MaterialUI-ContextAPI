@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Material UI + REACT-ROUTER-DOM
+## Material UI + REACT-ROUTER-DOM + Navigate (history.push) + Grid
 ## Available Scripts
 
 In the project directory, you can run:

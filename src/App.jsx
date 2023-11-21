@@ -14,22 +14,22 @@ import Customers from './pages/Customers/Customers';
 
 const App = () => {  
   return (
-    <TemplateDefault>
      <Router>
-      <Routes>
-        <Route 
-          path="/customers" 
-          element={
-            <TemplatePage title="Usuários" Component={Customers} />
-        } />
-        <Route 
-          path="/" 
-          element={
-            <TemplatePage title="Página Inicial" Component={Home} />
-        } />
-      </Routes>
+      <TemplateDefault>
+        <Routes>
+          <Route 
+            path="/customers" 
+            element={
+              <TemplatePage title="Usuários" Component={Customers} /> // Aplicando templates de titulo nas paginas no component Customers
+          } />
+          <Route 
+            path="/" 
+            element={
+              <TemplatePage title="Página Inicial" Component={Home} /> // Aplicando templates de titulo nas paginas no component Home
+          } />
+        </Routes>
+      </TemplateDefault>
      </Router>
-    </TemplateDefault>
   );
 }
 
