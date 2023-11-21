@@ -45,7 +45,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para exibir a lista de usuários cadastrados no site na tela.
 
-Para elaborar o layout foi usado o MaterialUI utilizando layouts, icones, grids, entre outras coisas na versão 5.14.18, o MaterialUI biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
+Para elaborar o layout foi usado o MaterialUI utilizando LAYOUTs, ICONs, GRIDs, entre outras coisas na versão 5.14.18, o MaterialUI biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
 
 Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
 
