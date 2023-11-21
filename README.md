@@ -2,7 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Material UI + REACT-ROUTER-DOM + Navigate (history.push) + Grid
 ## Available Scripts
 
 In the project directory, you can run:
@@ -40,6 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+## Aplicação
+
+Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para exibir a lista de usuários cadastrados no site na tela.
+
+Para elaborar o layout foi usado o MaterialUI utilizando LAYOUTs, ICONs, GRIDs, entre outras coisas na versão 5.14.18, o MaterialUI biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
+
+Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -69,3 +78,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
