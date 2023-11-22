@@ -10,6 +10,8 @@ import TemplatePage from './templates/Page';
 
 import CustomersList from './pages/Customers/List';
 import CustomersRegister from './pages/Customers/Register';
+import CustomersEdit from './pages/Customers/Edit';
+
 import Home from './pages/Home/Home';
 
 
@@ -18,6 +20,11 @@ const App = () => {
      <Router>
       <TemplateDefault>
         <Routes>
+        <Route 
+            path="/customers/edit/:id" 
+            element={
+              <TemplatePage title="Editar Cliente" Component={CustomersEdit} /> // Aplicando templates de titulo nas paginas no component Customers
+          } />
           <Route 
             path="/customers/add" 
             element={

@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
 import TextField from '@mui/material/TextField'
 import Button from '@mui/material/Button'
 
 import Toasty from '../../components/Toasty'
 
-const Register = () => {
-    
+const Edit = () => {
+
+    const { id } = useParams()
+
     const [form, setForm] = useState ({
         name: {
             value: '',
@@ -20,8 +23,28 @@ const Register = () => {
     })
 
     const [openToasty, setOpenToasty] = useState(false)
-
     const [isLoading, setIsLoading] = useState(false)
+
+    useEffect(() => {
+        axios.get(`https://reqres.in/api/users/${id}`)
+        .then(response => {
+            const { data } = response.data
+            
+            setForm({
+                name: {
+                    value: data.first_name,
+                    error: false,
+                },
+                job: {
+                    value: data.job,
+                    error: false,
+                },
+            })     
+        })
+    }, [id])
+    
+   
+
     const handleInputChange = (e) => {
         const { name, value } = e.target
 
@@ -67,7 +90,7 @@ const Register = () => {
 
             }
 
-            axios.post('https://reqres.in/api/users', {
+            axios.put(`https://reqres.in/api/users/${id}`, {
                 name: form.name.value,
                 job: form.job.value,
                 })
@@ -100,7 +123,7 @@ const Register = () => {
             <div>
                 <Button variant="contained" color="primary" onClick={handleRegisterButton} disabled={isLoading}>
                     {
-                        isLoading ? 'Aguarde...' : 'Cadastrar'
+                        isLoading ? 'Aguarde...' : 'Salvar alterações'
                     }
                 </Button>
                 <Toasty 
@@ -115,4 +138,4 @@ const Register = () => {
     )
 }
 
-export default Register
+export default Edit

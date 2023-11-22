@@ -3,12 +3,16 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Grid from '@mui/material/Grid';
 
+import { useNavigate } from 'react-router-dom';
+
 import CustomersCard from '../../components/customerCard';
 
 
 
 const Customers = () => {
     
+    const navigate = useNavigate()
+
     const [customers, setCustomers] = useState([])
 
 
@@ -30,6 +34,9 @@ const Customers = () => {
         })
     }
 
+        const handleEditCustomer = id => {
+            navigate(`/customers/edit/${id}`) // redirecionando para o edit baseado no ID do cliente que foi clicado
+        }
 
     return (
 
@@ -45,6 +52,7 @@ const Customers = () => {
                                 email={customer.email}
                                 avatar={customer.avatar}
                                 onRemoveCustomer={handleRemoveCustomer}
+                                onEditCustomer={handleEditCustomer}
                 
                             />
                         </Grid>      
