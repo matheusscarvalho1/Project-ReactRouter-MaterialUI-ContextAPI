@@ -7,7 +7,7 @@ const Default = ({ children }) => {
       return (
         <> 
             <Header />
-            <Container>
+            <Container style={{marginTop: '32px'}}>
                 {children}
             </Container>
             
