@@ -1,12 +1,9 @@
 # Projeto Simulador de CRUD
 
-Projeto desenvolvido com React.JS, estilizado com Material UI e com navegação utilizando React Router, o projeto simula uma CRUD, então é possível criar, listar, editar e apagar dados de clientes, clientes esses que já estão 'cadastrados' préviamente através de uma API com informações como foto, nome e email.
+Projeto desenvolvido com React.JS, estilizado com Material UI e com navegação utilizando React Router, o projeto simula uma CRUD, então é possível criar, listar, editar e apagar dados de clientes, clientes esses que já estão 'cadastrados' préviamente através de uma [API de usuários](https://reqres.in/api/users) que foi consumida através do AXIOS para fazer as requisições HTTP e exibir os dados dos usuários na aplicação, informações como foto, nome e email.
 
-## Aplicação
 
-Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para fazer as requisições HTTP para consumir a API e exibir os dados dos usuários na aplicação.
-
-Para elaborar o layout foi usado o MaterialUI (versão 5.14.18) utilizando LAYOUTs, ICONs, GRIDs, entre outras coisas, o MaterialUI é uma biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
+Para elaborar o layout foi usado o MaterialUI utilizando layouts, ícones , grids, entre outras coisas, o MaterialUI é uma biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
 
 Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
 e Context API para simular um sistema de login, criando estados global para acessar em todo o projeto.
@@ -26,7 +23,8 @@ Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.c
 
 ## Tecnologias utilizadas no projeto
 
-- [ReactJs na versão 18.2.0](https://pt-br.legacy.reactjs.org)
+- [ReactJs versão 18.2.0](https://pt-br.legacy.reactjs.org)
+- [MaterialUI versão 5.14.18](https://mui.com/material-ui/)
 
 
 ## Como rodar o projeto
