@@ -13,7 +13,8 @@ e Context API para simular um sistema de login, criando estados global para aces
 
 <div align="center">
   
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/491bed84-3a92-42de-9823-4d493db53628)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/70a885bb-8025-47c8-863d-1bfd316d3984)
+
 
 
 </div>
@@ -28,7 +29,6 @@ Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.c
 ## Tecnologias utilizadas no projeto
 
 - [ReactJs na versão 18.2.0](https://pt-br.legacy.reactjs.org)
-- [Styled Components na versão 6.1.1](https://styled-components.com)
 
 
 ## Como rodar o projeto
