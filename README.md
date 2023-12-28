@@ -111,12 +111,43 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 
 <b><h2>Seção do site - Listar Clientes</h2></b>
 
+
 ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/db686f80-25eb-4ec1-8acc-91916635897a)
+
+<h4 align="left">Listar clientes: Editar cliente</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/cb2617d5-3b46-4d43-beea-169084ba7edb)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/b6e8a277-e384-4f02-b94a-443336d19d65)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/5b2f92a2-40ec-440d-b580-394e89db4ae0)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/e06ac07a-dfdf-4512-85e7-f7ee12715453)
+
+<h4 align="left">Listar clientes: Apagar clientes</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/14da6577-e589-45c1-9da9-9972a332aace)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/4cfa98d4-d66c-441f-9ea3-b3a7ef684ff9)
+
+<p align="left">Observe que o cliente 'Charles Morris' foi apagado</p>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d0e9b01a-8adb-43d8-b0ad-e2acdbc7d34d)
+
+
+
+
+
 
 
 <b><h2>Seção do site - Cadastrar clientes</h2></b>
 
 ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/34854103-9e61-41b8-9813-cbd1def10d4c)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/a817cac3-5af6-4400-8ff1-662be0fa5416)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/33b9244a-c051-4865-a54d-4ea5a34d6635)
+
 
 
 
