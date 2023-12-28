@@ -49,14 +49,24 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 <div align="center">
 <b><h2>Seção do site - Home</h2></b>
 
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/0d361e60-6a2e-4642-947a-22b221259097)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/19a5be8f-90ab-4344-823f-74ce19a0f153)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d0f06347-7b5f-4fb4-a806-4c027e137718)
+
+
+<b><h2>Seção do site - Listar clientes</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/20aeca85-8571-4ab2-8409-0bbaac0c8c1a)
+
+<h4>Listar clientes: Editar cliente</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c54b0977-ea7a-49b6-b4c1-257463f456c0)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/70a7b82c-41f5-481c-94ff-b1cb2d086bc2)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c211d79d-9d3f-4400-9724-4fbf946a0415)
 
 
 
-<hr>
-<b><h2>Seção do site - Sobre</h2></b>
 
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/d30b4440-e651-4429-8b19-7b20a3120608)
 
 
 
