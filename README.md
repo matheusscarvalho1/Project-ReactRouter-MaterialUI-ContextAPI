@@ -13,7 +13,8 @@ e Context API para simular um sistema de login, criando estados global para aces
 
 <div align="center">
   
-![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/70a885bb-8025-47c8-863d-1bfd316d3984)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/a788eaf1-ff1b-4ab7-aeed-87291b1e2a8d)
+
 
 
 
