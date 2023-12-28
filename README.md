@@ -41,9 +41,6 @@ Após instalar, basta utilizar o comando:
 npm start
 ```
 
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/eee57160-c377-46c1-91b5-ac6f4fdc10b7)
-
-
 Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 # Resultados
