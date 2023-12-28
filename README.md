@@ -55,14 +55,39 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 
 
 <b><h2>Seção do site - Listar clientes</h2></b>
-
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c8fc8edc-94e2-46c5-b771-e2e43219d026)
 ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/20aeca85-8571-4ab2-8409-0bbaac0c8c1a)
 
-<h4>Listar clientes: Editar cliente</h4>
+<h4 align="left">Listar clientes: Editar cliente</h4>
 
 ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c54b0977-ea7a-49b6-b4c1-257463f456c0)
 ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/70a7b82c-41f5-481c-94ff-b1cb2d086bc2)
-![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c211d79d-9d3f-4400-9724-4fbf946a0415)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/121c1f8a-059a-41dd-8b40-985d3cc30931)
+
+
+<h4 align="left">Listar clientes: Apagar clientes</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/e8e1dc2a-73f7-4ac4-a43f-542cb0612647)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/7d45142a-afa4-40f1-a366-390344475e01)
+
+<p align="left">Observe que o cliente 'Eve Holt' foi apagado</p>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d227be1e-81a8-4c0f-98e4-e30c4d31a7ce)
+
+
+
+<hr>
+<b><h2>Seção do site - Cadastrar clientes</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/08437ed8-95b4-42cc-a3dc-59f239d0d40d)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/230774cd-876d-46b7-adbc-22d83a6a319a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/85873fa5-dd1c-4866-b6eb-dc98f10a932a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/875322b7-ca20-47be-b4c9-71da2d0fc8fe)
+
 
 
 
@@ -71,44 +96,7 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 
 
 <hr>
-<b><h2>Seção do site - Habilidades</h2></b>
 
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/7ee2cb1b-6a26-4098-815d-8f05459ba3e9)
-
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/de6b2ef9-f40b-465c-a46e-ee322d1f683b)
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/b2f75171-932b-4518-adfa-7ef27b2274b7)
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/d856d04d-10c2-43fd-8fd5-b186e95b7bb9)
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/1f58616b-884c-49c8-bcf7-754e5d12ab46)
-
-
-
-
-<hr>
-<b><h2>Seção do site - Projetos</h2></b>
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/a9cff1b4-ae27-4e4a-bda4-d4481691191c)
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/b399055d-f137-4cb2-8039-9900272b142e)
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/04d94fbc-2c79-4390-85d0-f71046045d1b)
-
-
-
-
-<hr>
-<b><h2>Seção do site - Contato</h2></b>
-
-![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/01fa293e-4472-416c-909b-755d1378854f)
-
-
-
-
-<hr>
-</div>
 
 ## Mobile
 
