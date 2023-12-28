@@ -4,7 +4,7 @@ Projeto desenvolvido com React.JS, estilizado com Material UI e com navegação 
 
 ## Aplicação
 
-Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para exibir os dados dos usuários na aplicação.
+Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para fazer as requisições HTTP para consumir a API e exibir os dados dos usuários na aplicação.
 
 Para elaborar o layout foi usado o MaterialUI utilizando LAYOUTs, ICONs, GRIDs, entre outras coisas na versão 5.14.18, o MaterialUI biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
 
