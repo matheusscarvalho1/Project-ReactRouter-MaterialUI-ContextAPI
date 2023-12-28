@@ -12,7 +12,9 @@ Para a criação de rotas foi utilizado o React Router Client-Side onde irão co
 e Context API para simular um sistema de login, criando estados global para acessar em todo o projeto.
 
 <div align="center">
-  ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/8b764203-778e-48c3-947b-cc7ba83aa856)
+  
+  ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/5d5f7acc-7c04-41be-8654-20c2ead593f2)
+
 </div>
 
 
