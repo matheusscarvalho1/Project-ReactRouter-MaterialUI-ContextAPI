@@ -80,7 +80,7 @@ const Register = () => {
     return (
         <>
             <div>
-                <TextField 
+                <TextField style={{marginBottom: '16px'}}
                     error={form.name.error}
                     helperText={form.name.error ? form.name.helperText : ''}
                     name='name' 
@@ -89,7 +89,7 @@ const Register = () => {
                     onChange={handleInputChange} />
             </div>
             <div> 
-                <TextField 
+                <TextField style={{marginBottom: '16px'}}
                     error={form.job.error}
                     helperText={form.job.error ? form.job.helperText : ''}
                     name='job' 
