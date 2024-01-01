@@ -1,5 +1,12 @@
 # Projeto Simulador de CRUD
 
+<div align="center">
+  
+  ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/da0f14d4-032b-4f47-98c8-aa17606efdda)
+
+
+</div>
+
 Projeto desenvolvido com <strong>React.JS</strong>, estilizado com <strong>Material UI</strong> e com navegação utilizando <strong>React Router</strong>, o projeto simula uma CRUD, então é possível criar, listar, editar e apagar dados de clientes, clientes esses que já estão 'cadastrados' préviamente através de uma [API de usuários](https://reqres.in/api/users) que foi consumida através do AXIOS para fazer as requisições HTTP e exibir os dados dos usuários na aplicação, informações como foto, nome e email.
 
 
@@ -7,12 +14,6 @@ Para elaborar o layout foi usado o MaterialUI utilizando layouts, ícones , grid
 
 Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
 e <strong>Context API</strong> para simular um sistema de login, criando estados global para acessar em todo o projeto.
-
-<div align="center">
-  
-  ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/5d5f7acc-7c04-41be-8654-20c2ead593f2)
-
-</div>
 
 
 ## Pré requisitos
@@ -44,14 +45,31 @@ npm start
 Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 # Resultados
-
 ## Desktop
+
+<div align="center">
+<b><h2>Seção do site - Login</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/4eb66bef-0f2f-4fc1-89fa-6af1c42f3321)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/4f1f9ed5-95a1-42f5-9290-717751a657d1)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/749a9277-89bb-4b1d-a4bc-f49baf4655d0)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/18790e03-c6d4-40b6-98b9-e62cc6cb3578)
+
+
+
+
+
 <div align="center">
 <b><h2>Seção do site - Home</h2></b>
 
-![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/19a5be8f-90ab-4344-823f-74ce19a0f153)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/23beab90-3847-4566-a7df-424ffcd32cac)
 
-![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d0f06347-7b5f-4fb4-a806-4c027e137718)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/74b85be5-cda4-45ba-a99b-3dbcf7d78ae8)
+
 
 
 <b><h2>Seção do site - Listar clientes</h2></b>
