@@ -12,8 +12,7 @@ Projeto desenvolvido com <strong>React.JS</strong>, estilizado com <strong>Mater
 
 Para elaborar o layout foi usado o MaterialUI utilizando layouts, ícones , grids, entre outras coisas, o MaterialUI é uma biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
 
-Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
-e <strong>Context API</strong> para simular um sistema de login, criando estados global para acessar em todo o projeto.
+Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API e <strong>Context API</strong> para simular um sistema de login, criando estado global para acessar os dados do usuário que efetuou o login em todo o projeto, como exibir o email do usuário na header do componente em toda a aplicação.
 
 
 ## Pré requisitos
