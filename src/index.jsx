@@ -5,6 +5,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'; // Aula 6 - E
 import App from './App';
 import './index.css'
 
+import { AuthProvider } from './state/auth';
+
+
 import { deepPurple, red } from '@mui/material/colors'; // Aula 6 - Estilos globais e configuração de tema
 
 const theme = createTheme({ // Aula 6 - Estilos globais e configuração de tema
@@ -22,7 +25,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      <AuthProvider>
+        <App />
+      </AuthProvider>
   </ThemeProvider>
   </React.StrictMode>
 );

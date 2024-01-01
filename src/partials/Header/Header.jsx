@@ -16,13 +16,15 @@ import { AppBar,
 import { useNavigate } from 'react-router-dom';
 
 
+
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import UserIconAdd from '@mui/icons-material/PersonAdd';
 import UserPerson from '@mui/icons-material/Person';
 
 
-const Header = () => {
+
+const Header = ({ user }) => {
 
   const [menuOpen, setMenuOpen] = useState(false)
   const navigate = useNavigate()
@@ -54,7 +56,11 @@ const Header = () => {
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 My App
               </Typography>
-              <Button color="inherit">Login</Button>
+            {
+              user.logged
+              ? <Typography variant="h6">{user.email}</Typography>
+              :<Button color="inherit">Login</Button>
+            }  
             </Toolbar>
           </AppBar>
             <Drawer open={menuOpen} onClose={() => handleToggleMenu(false)}>

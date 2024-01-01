@@ -1,83 +1,171 @@
-# Getting Started with Create React App
+# Projeto Simulador de CRUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Projeto desenvolvido com <strong>React.JS</strong>, estilizado com <strong>Material UI</strong> e com navegação utilizando <strong>React Router</strong>, o projeto simula uma CRUD, então é possível criar, listar, editar e apagar dados de clientes, clientes esses que já estão 'cadastrados' préviamente através de uma [API de usuários](https://reqres.in/api/users) que foi consumida através do AXIOS para fazer as requisições HTTP e exibir os dados dos usuários na aplicação, informações como foto, nome e email.
 
 
-## Aplicação
-
-Foi consumida uma [API REST de usuários](https://reqres.in/api/users)  através do AXIOS para exibir a lista de usuários cadastrados no site na tela.
-
-Para elaborar o layout foi usado o MaterialUI utilizando LAYOUTs, ICONs, GRIDs, entre outras coisas na versão 5.14.18, o MaterialUI biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
+Para elaborar o layout foi usado o MaterialUI utilizando layouts, ícones , grids, entre outras coisas, o MaterialUI é uma biblioteca baseada em Material Design onde faz um uso mais liberal de layouts baseados em grids, animações e transações responsivas, preenchimentos e efeitos de profundidade como luzes e sombras.
 
 Para a criação de rotas foi utilizado o React Router Client-Side onde irão consumir dados de uma API, e para a navegação será usado o useNavigate para navegar entre as rotas
+e <strong>Context API</strong> para simular um sistema de login, criando estados global para acessar em todo o projeto.
+
+<div align="center">
+  
+  ![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/5d5f7acc-7c04-41be-8654-20c2ead593f2)
+
+</div>
 
 
-## Learn More
+## Pré requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Você precisa ter instalado o [NodeJS](https://nodejs.org/) (Recomendado: versão 18) e o npm ou yarn.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.com/)
 
-### Code Splitting
+## Tecnologias utilizadas no projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [ReactJs versão 18.2.0](https://pt-br.legacy.reactjs.org)
+- [MaterialUI versão 5.14.18](https://mui.com/material-ui/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Como rodar o projeto
 
-### Making a Progressive Web App
+Para instalar as bibliotecas e dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm i
+```
 
-### Advanced Configuration
+Após instalar, basta utilizar o comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Resultados
 
-### `npm run build` fails to minify
+## Desktop
+<div align="center">
+<b><h2>Seção do site - Home</h2></b>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/19a5be8f-90ab-4344-823f-74ce19a0f153)
 
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d0f06347-7b5f-4fb4-a806-4c027e137718)
+
+
+<b><h2>Seção do site - Listar clientes</h2></b>
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c8fc8edc-94e2-46c5-b771-e2e43219d026)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/20aeca85-8571-4ab2-8409-0bbaac0c8c1a)
+
+<h4 align="left">Listar clientes: Editar cliente</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/c54b0977-ea7a-49b6-b4c1-257463f456c0)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/70a7b82c-41f5-481c-94ff-b1cb2d086bc2)
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/121c1f8a-059a-41dd-8b40-985d3cc30931)
+
+
+<h4 align="left">Listar clientes: Apagar clientes</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/e8e1dc2a-73f7-4ac4-a43f-542cb0612647)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/7d45142a-afa4-40f1-a366-390344475e01)
+
+<p align="left">Observe que o cliente 'Eve Holt' foi apagado</p>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d227be1e-81a8-4c0f-98e4-e30c4d31a7ce)
+
+
+
+<hr>
+<b><h2>Seção do site - Cadastrar clientes</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/08437ed8-95b4-42cc-a3dc-59f239d0d40d)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/230774cd-876d-46b7-adbc-22d83a6a319a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/85873fa5-dd1c-4866-b6eb-dc98f10a932a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/875322b7-ca20-47be-b4c9-71da2d0fc8fe)
+
+
+
+
+
+
+
+
+<hr>
+
+
+## Mobile
+
+<div align="center">
+<b><h2>Seção do site - Home</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/52ce3394-97a3-40b7-8949-43e67f63fcbd)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/a6c6e9a5-7def-483f-abf1-089b2165d692)
+
+
+
+<b><h2>Seção do site - Listar Clientes</h2></b>
+
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/db686f80-25eb-4ec1-8acc-91916635897a)
+
+<h4 align="left">Listar clientes: Editar cliente</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/cb2617d5-3b46-4d43-beea-169084ba7edb)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/b6e8a277-e384-4f02-b94a-443336d19d65)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/5b2f92a2-40ec-440d-b580-394e89db4ae0)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/e06ac07a-dfdf-4512-85e7-f7ee12715453)
+
+<h4 align="left">Listar clientes: Apagar clientes</h4>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/14da6577-e589-45c1-9da9-9972a332aace)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/4cfa98d4-d66c-441f-9ea3-b3a7ef684ff9)
+
+<p align="left">Observe que o cliente 'Charles Morris' foi apagado</p>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/d0e9b01a-8adb-43d8-b0ad-e2acdbc7d34d)
+
+
+
+
+
+
+
+<b><h2>Seção do site - Cadastrar clientes</h2></b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/34854103-9e61-41b8-9813-cbd1def10d4c)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/a817cac3-5af6-4400-8ff1-662be0fa5416)
+
+![image](https://github.com/matheusscarvalho1/Projeto-Simulador-de-CRUD/assets/73304785/33b9244a-c051-4865-a54d-4ea5a34d6635)
+
+
+
+
+<hr>
+</div>
+
+<div align="left">
+  
+# Autor
+
+<b>Matheus de Souza Carvalho</b>
+
+LinkedIn:
+[https://www.linkedin.com/in/matheusscarvalho/](https://www.linkedin.com/in/matheusscarvalho/)
+
+E-mail:
+matheusdocarvalho@gmail.com
+
+</div>
 
 
